@@ -1175,7 +1175,7 @@ int main(int argc, char *argv[])
     world.cur_idx[dim_x] = WORLD_SIZE / 2;
     world.cur_idx[dim_y] = WORLD_SIZE / 2;
     for (int test = 0; test < 100; test++) {
-      pokemon test_pokemon(5);
+      class pokemon test_pokemon(5);
       if (!test_pokemon.get_species()[0] ||
           !test_pokemon.get_move(0)[0] ||
           test_pokemon.get_hp() <= 0) {
