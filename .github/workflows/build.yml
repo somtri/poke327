@@ -1,0 +1,25 @@
+name: build
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install ncurses development files
+        run: sudo apt-get update && sudo apt-get install -y libncurses-dev
+
+      - name: Build
+        run: make
+
+      - name: Run smoke test
+        run: make smoke-test

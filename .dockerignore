@@ -1,0 +1,8 @@
+.git
+.github
+poke327
+*.o
+*.d
+TAGS
+core
+vgcore.*

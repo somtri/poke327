@@ -1,0 +1,14 @@
+2026-04-27 - Created assignment 1.10 choose-your-own project directory from completed 1.09 codebase.
+2026-04-27 - Preserved cumulative poke327 world generation, movement, trainer battles, wild encounters, and CSV parsing code.
+2026-04-28 - Added PC money tracking and HUD display of PokeBucks.
+2026-04-28 - Added trainer payout mechanic after defeating trainers.
+2026-04-28 - Replaced free Pokemart refill with item shop for Pokeballs, potions, and revives.
+2026-04-29 - Added non-guaranteed catch attempts using Pokemon catch rates.
+2026-04-29 - Added PC storage for extra caught Pokemon when the party is full.
+2026-04-29 - Added Pokemon Center healing for party and stored Pokemon plus party/storage swap interface.
+2026-04-29 - Added type-effectiveness multiplier support to move damage calculation.
+2026-04-29 - Verified successful build and runtime testing on pyrite in VS Code remote environment.
+2026-06-08 - Added a built-in compact Pokedex fallback for standalone builds.
+2026-06-08 - Added a non-interactive smoke test, Docker build, and GitHub Actions workflow.
+2026-06-08 - Fixed immunity damage, missing-power moves, storage withdrawals, and party knockout checks.
+2026-06-08 - Added public build, run, controls, data, and project documentation.
